@@ -1,0 +1,79 @@
+Memory Operations
+ 105492 l.lwz - Load Single Word and Extend with Zero
+  73464 l.sw - Store Single Word
+   3119 l.lbz - Load Byte and Extend with Zero
+   2204 l.sb - Store Byte
+   2475 l.lhz - Load Half Word and Extend with Zero
+   1261 l.sh - Store Half Word
+    492 l.lbs - Load Byte and Extend with Sign
+    181 l.lhs - Load Half Word and Extend with Sign
+
+Special purpose registers
+    221 l.mfspr - Move From Special-Purpose Register
+    125 l.mtspr - Move To Special-Purpose Register
+
+Jumps
+  34920 l.jal - Jump and Link
+  18850 l.j - Jump
+   9176 l.jr - Jump Register
+   1916 l.jalr - Jump and Link Register
+
+Branches
+  33950 l.bf - Branch if Flag
+  16419 l.bnf - Branch if No Flag
+
+System calls
+     36 l.rfe - Return From Exception
+      0 l.sys - System Call
+
+No operation
+  20493 l.nop - No Operation
+
+Bitwise
+  81355 l.ori - Or with Immediate Half Word
+  76973 l.addi - And with Immediate Half Word
+  22402 l.movhi - Move Immediate High
+   8482 l.andi - And with Immediate Half Word
+   4453 l.or - Or
+   4451 l.slli - Shift Left Logical with Immediate
+   4086 l.srli - Shift Right Logical with Immediate
+   4016 l.and - And
+   1719 l.xor - Exclusive Or
+   1182 l.srai - Shift Right Arithmetic with Immediate
+   1060 l.xori - Exclusive Or with Immediate Half Word
+    623 l.sll - Shift Left Logical
+    323 l.srl - Shift Right Logical
+    122 l.sra - Shift Right Arithmetic
+     73 l.fl1 - Find Last 1
+     30 l.ff1 - Find First 1
+
+Integer
+  12188 l.add - Add
+   6220 l.sub - Subtract
+    501 l.mul - Multiply Signed
+    246 l.divu - Divide Unsigned
+     97 l.div - Divide Signed
+      1 l.maci - Multiply Immediate and Accumulate Signed
+
+Flag setting
+  19876 l.sfeqi - Set Flag if Equal Immediate
+  12084 l.sfnei - Set Flag if Not Equal Immediate
+   3768 l.sfne - Set Flag if Not Equal
+   2953 l.sfeq - Set Flag if Equal
+   2148 l.sfgtu - Set Flag if Greater Than Unsigned
+   2105 l.sfltsi -  Set Flag if Less Than Immediate Signed
+   1427 l.sfltu - Set Flag if Less Than Unsigned
+   1225 l.sfleui - Set Flag if Less or Equal Than Immediate Unsigned
+   1157 l.sfgesi - Set Flag if Greater or Equal Than Immediate Signed
+   1039 l.sfleu - Set Flag if Less or Equal Than Unsigned
+   1000 l.sfgtui - Set Flag if Greater Than Immediate Unsigned
+    771 l.sflesi - Set Flag if Less or Equal Than Immediate Signed
+    711 l.sfgeu - Set Flag if Greater or Equal Than Unsigned
+    553 l.sfgtsi - Set Flag if Greater Than Immediate Signed
+    474 l.sfgts - Set Flag if Greater Than Signed
+    397 l.sfles - Set Flag if Less or Equal Than Signed
+    305 l.sflts - Set Flag if Less Than Signed
+    283 l.sfges - Set Flag if Greater or Equal Than Signed
+     50 l.sfgeui - Set Flag if Greater or Equal Than Immediate Unsigned
+     42 l.sfltui - Set Flag if Less Than Immediate Unsigned
+
