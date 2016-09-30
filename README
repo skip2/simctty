@@ -1,6 +1,6 @@
 # simctty - Toy OpenRISC 1000 simulation.
 #
-# This is just a toy project, it does just enough to boot the bundled
+# This is a toy project, it does just enough to boot the bundled
 # Linux binary.
 
 # Copyright (c) 2014-2016 Tom Harwood
