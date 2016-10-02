@@ -13,7 +13,7 @@ More information & a web demo at https://skip.org/linux .
     cmake ..
     make
 
-# Running (from the build dir):
+## Running (from the build dir):
 
     simctty/simctty ../linux/vmlinux.bin
 
